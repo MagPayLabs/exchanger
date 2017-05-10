@@ -1,9 +1,9 @@
 {
-    "name": "florianv/exchanger",
+    "name": "magpaylabs/exchanger",
     "type": "library",
     "description": "Currency exchange rates framework for PHP",
     "keywords": ["currency", "money", "rate", "conversion", "exchange rates"],
-    "homepage": "https://github.com/florianv/exchanger",
+    "homepage": "https://github.com/magpaylabs/exchanger",
     "license": "MIT",
     "authors": [
         {

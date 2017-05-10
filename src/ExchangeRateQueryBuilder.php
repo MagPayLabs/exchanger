@@ -39,9 +39,9 @@ final class ExchangeRateQueryBuilder
      *
      * @param string $currencyPair
      */
-    public function __construct($currencyPair)
+    public function __construct($baseCurrency, $quoteCurrency)
     {
-        $this->currencyPair = CurrencyPair::createFromString($currencyPair);
+        $this->currencyPair = new CurrencyPair($baseCurrency, $quoteCurrency);
     }
 
     /**
